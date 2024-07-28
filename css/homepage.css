@@ -85,5 +85,54 @@ a{
     
 }
 
+/* new arrival */
 
+.container-iteam{
+    width: 280px;
+    height: 350px;
+    border: 2px solid #ffdc5f;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    text-align: center;
+}
 
+.container-name{
+  padding-top: 20px;
+  width: 100%;
+  height: 25%;
+  font-weight: bold;
+
+}
+.container-image{
+    width: 100%;
+    height: 55%;
+    padding: 20px;
+
+}
+
+.NewArrival-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contanier-price{
+    padding-top: 20px;
+    width: 100%;
+    height: 20%;
+}
+
+.contanier-price span{
+    font-size: large;
+    font-weight: bold;
+}
+
+.conatiner-iteam-group{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
