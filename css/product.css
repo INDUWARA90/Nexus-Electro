@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.container-search input{
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.container-search button{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+
+
+.container-main{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.container-side-bar{
+    margin-left: 100px;
+    width: 250px;
+    height: 600px;
+    border: 1px solid black;
+    padding: 30px
+}
+
+.container-side-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Show-count{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-side-bar hr{
+    width: 100%;
+    
+}
+
+.conatiner-products{
+    width: 85%;
+    padding: 20px;
+    border: 1px solid black;
+    border-left: none;
+
+}
+.conatiner-products hr{
+    width: 100%;
+    
+}
+
+.card-mobile{
+    padding: 15px;
+    width: 18rem;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.card-mobile button{
+    width: 100%;
+    border-radius: 4px;
+    height: 30px;
+}
+.card-mobile h4,p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card-mobile p{
+    margin-top: 10px;
+}
+.card-mobile img{
+    text-align: center;
+    width: 250px;
+}
