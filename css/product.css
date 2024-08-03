@@ -59,6 +59,7 @@ a{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    margin-right: 10px;
 }
 .Show-count{
     height: 10%;
@@ -70,13 +71,15 @@ a{
 .container-side-bar hr{
     width: 100%;
     
+    
 }
 
 .conatiner-products{
-    width: 85%;
+    width: 75%;
     padding: 20px;
     border: 1px solid black;
-    border-left: none;
+    
+    
 
 }
 .conatiner-products hr{
@@ -106,4 +109,29 @@ a{
 .card-mobile img{
     text-align: center;
     width: 250px;
+}
+
+.products{
+
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-product-trendz{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-box-product{
+    margin: 25px;
+}
+
+.moving{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.moving i{
+    cursor: pointer;
 }
