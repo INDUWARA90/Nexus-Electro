@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: "Poppins", sans-serif;
@@ -9,19 +9,16 @@
     outline: none;
     box-sizing: border-box;
     text-decoration: none;
-
-
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-
 /* this week trendz iteams */
-.container-this-week-trend-iteam{
+.container-this-week-trend-iteam {
     position: relative;
-    background-color:rgb(164, 241, 241);
+    background-color: rgb(164, 241, 241);
     height: 400px;
     display: flex;
     align-items: center;
@@ -30,47 +27,48 @@ a{
     padding: 30px;
 }
 
-.container-this-week-trend-iteam img{
+.container-this-week-trend-iteam img {
     width: 400px;
 }
 
-.container-this-week-trend-iteam p{
+#img-ERRR{
+    width: 300px;
+}
+
+.container-this-week-trend-iteam p {
     width: 650px;
     font-size: medium;
     font-weight: 500;
- 
 }
 
 /* links to ove that page */
-.container-this-links{
+.container-this-links {
     background-color: aliceblue;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 30px;
     height: unset;
-
 }
 
-.image-links{
+.image-links {
     width: 100%;
-
 }
-.card-body{
-    background-color:aliceblue;
-    border: 1px  gray;
-   border-bottom-right-radius: 5px; 
-   border-bottom-left-radius: 5px;
 
+.card-body {
+    background-color: aliceblue;
+    border: 1px gray;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
-.container-card{
 
+.container-card {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
 
 /* Brand section */
-.box{
+.box {
     width: 185px;
     height: 185px;
     background-color: rgb(244, 244, 244);
@@ -81,15 +79,13 @@ a{
     align-items: center;
 }
 
-
-.box img{
+.box img {
     width: 100%;
-    
 }
 
 /* new arrival */
 
-.container-iteam{
+.container-iteam {
     width: 280px;
     height: 350px;
     border: 2px solid #ffdc5f;
@@ -99,54 +95,156 @@ a{
     text-align: center;
 }
 
-.container-name{
-  padding-top: 20px;
-  width: 100%;
-  height: 25%;
-  font-weight: bold;
-
+.container-name {
+    padding-top: 20px;
+    width: 100%;
+    height: 25%;
+    font-weight: bold;
 }
-.container-image{
+
+.container-image {
     width: 100%;
     height: 55%;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.box-container-image{
+.box-container-image {
     width: 100%;
-
-
 }
 
-.contanier-price{
+.contanier-price {
     padding-top: 20px;
     width: 100%;
     height: 20%;
 }
 
-.contanier-price span{
+.contanier-price span {
     font-size: large;
     font-weight: bold;
 }
 
-.conatiner-iteam-group{
+.conatiner-iteam-group {
     display: flex;
     gap: 5px;
     align-items: center;
     justify-content: center;
 }
 
-.offers{
+.offers {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.offers h3{
+.offers h3 {
     margin-top: 10px;
     color: black;
+}
+
+
+
+
+@media (max-width: 991.98px) {
+  
+    .container-this-week-trend-iteam p {
+        font-size: small;
+    }
+
+    .image-links,
+    #img-ERRR {
+        width: 200px;
+        margin: 10px;
+    }
+
+    .offers h3 {
+        font-size: medium;
+    }
+
+    .row {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800.98px) {
+    
+    .container-this-week-trend-iteam img {
+        width: 230px;
+    }
+
+    .image-links,
+    #img-ERRR {
+        width: 100px;
+        margin: 15px;
+    }
+    .offers h3 {
+        font-size: small;
+    }
+    
+
+}
+
+@media (max-width: 765.98px) {
+
+    .conatiner-iteam-group{
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 600.98px) {}
+
+@media (max-width: 555.98px) {
+  
+    .container-this-week-trend-iteam p {
+        font-size: x-small;
+    }
+
+
+}
+
+@media (max-width: 476px) {
+    
+    .trendzzzz{
+        display: none;
+    }
+
+    .offers h3 {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 390px) {
+  
+
+    .conatiner-iteam-group{
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image-links,
+    #img-ERRR{
+        width: 60px;
+        margin: 15px;
+    }
+    .offers h3 {
+        font-size: x-small;
+        font-weight: bold;
+    }
+
+  
+}
+
+@media (max-width: 290px) {
+   
+    .container-iteam{
+        width: 220px;
+    }
 }
