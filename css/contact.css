@@ -17,8 +17,10 @@
 .email,
 .telephone-number{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
+    margin: 50px;
+    
 }
 
 .image-and-content{
@@ -79,4 +81,26 @@ textarea{
 .Submit-button:hover{
     box-shadow: 0 0  10px var(--font-color-Second);
     color: white;
+}
+
+
+
+/*media query */
+
+@media (max-width: 476px) {
+    .P1{
+        font-size: small;
+    }
+}
+
+@media (max-width: 390px) {
+    .P1{
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 290px) {
+    .P1{
+        font-size: xx-small;
+    }
 }
